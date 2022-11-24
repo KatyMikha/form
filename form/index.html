@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Пожалуйста, укажите Ваше имя и фамилию.</h1>
+        <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+        <div class="active-box">
+            <form action="action_page">
+                <input type="text" placeholder="Ваше имя" name="name" required>
+                <input type="text" placeholder="Ваша фамилия" name="last" required>
+                <p>Дата рождения</p>
+                <div class="box_nomber">
+                    <select name="day">
+                        <option value="1" selected>День</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    <select name="month">
+                        <option value="may" selected>Месяц</option>
+                        <option value="june">июнь</option>
+                        <option value="july">июль</option>
+                      </select>
+                    <select name="year">
+                        <option value="1986" selected>Год</option>
+                        <option value="1985">1985</option>
+                        <option value="1984">1984</option>
+                      </select>
+                </div>
+                <button type="submit" class="registerbtn">Зарегистрироваться</button>
+            </form>
+            <p class="line">или</p>
+            <button type="btn" class="Facebook">Продолжить с Facebook</button>
+        </div>
+    </div>
+</body>
+
+</html>
